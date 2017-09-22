@@ -1,4 +1,14 @@
 ---
 layout: default
 ---
-    {{ content }}
+<body>
+<!-- insert just before the closing body tag </body> -->
+<script src='/path-to-your-javascript-file/pdfobject.js'></script>
+<script>
+var options = {
+   fallbackLink: '<p>Download the PDF to view my resume: <a href="[url]">Download PDF</a></p>'
+};
+
+PDFObject.embed("https://drive.google.com/file/d/0B5yvZmNFj3FGMHFUYTM1Vl9BbWs/view?usp=sharing", false, options);
+</script>
+</body>

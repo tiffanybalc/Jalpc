@@ -18,5 +18,5 @@
 - name: Resume
   i18n: google
   url: https://drive.google.com/file/d/0B5yvZmNFj3FGMHFUYTM1Vl9BbWs/view?usp=sharing
-  img: /static/assets/img/landing/google.png
+  img: fa-file-pdf-o
   desc: View my resume

@@ -15,8 +15,8 @@
 # img: /static/assets/img/landing/python.png
 # desc: This project is other's project. I use another request to get repo's information.
 
-- name: Google
+- name: Resume
   i18n: google
-  url: https://google.com
+  url: https://tiffanybalc.github.io/home/_posts/Balcarcel_Tiffany_resume.pdf
   img: /static/assets/img/landing/google.png
-  desc: This is Google.
+  desc: This is my resume.

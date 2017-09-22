@@ -1,1 +1,1 @@
-(https://github.com/tiffanybalc/home/posts/Balcarcel,_Tiffany.pdf)
+(https://github.com/tiffanybalc/home/_posts/Balcarcel, Tiffany Resume.pdf)

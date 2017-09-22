@@ -1,15 +1,15 @@
 # links section data
-- last_name: Balcarcel
-  first_name: Tiffany
-  desc: Balcarcel, Tiffany Resume
+- last_name: Tiffany
+  first_name: Balcarcel
+  desc: Download my resume
   website: https://drive.google.com/file/d/0B5yvZmNFj3FGMHFUYTM1Vl9BbWs/view?usp=sharing
   email: tiffanybalcarcel@wustl.edu
 
-# last_name: Donate
-# first_name: Jalpc
-# desc: Support Jalpc
-# website: http://www.jarrekk.com/donate/
-# email: me@jarrekk.com
+- last_name: Tiffany
+  first_name: Balcarcel
+  desc: LinkedIn Profile
+  website: https://www.linkedin.com/in/tiffanybalcarcel/
+  email: tiffanybalcarcel@wustl.edu
 
 # last_name: LN
 # first_name: FN

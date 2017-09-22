@@ -23,8 +23,8 @@
   name: Projects
   tpl: projects.html
   css: project
-
- id: blog
+  
+- id: blog
   i18n: nav.blog
   name: Blog
   tpl: blog.html

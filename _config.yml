@@ -14,7 +14,7 @@ author:  # change following line to your infomation.
   name: Tiffany Balcarcel  # Be used at blog posts' author.
   first_name: Tiffany  # Be used at index page about me section.
   last_name: Balcarcel  # Be used at index page about me section.
-  avatar: /static/assets/img/landing/IMG_2379.jpg  # upload your avatar at directory and edit it.
+  avatar: /static/assets/img/landing/avatar.jpg  # upload your avatar at directory and edit it.
   github_username: tiffanybalc
   linkedin_id: tiffanybalcarcel
   facebook_username: Tiffany.AlexandraB

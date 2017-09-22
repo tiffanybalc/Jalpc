@@ -1,6 +1,6 @@
 <div class="search-tool"
       style="position: fixed; top: 0px ; bottom: 0px; left: 0px; right:  0px; opacity: 0.95; background-color: #111111; z-index: 9999; display: none;">
-    <input type="text" class="form-control search-content" id="search-content" style="position: fixed; top: 60px" placeholder="Search Resume">
+    <input type="text" class="form-control search-content" id="search-content" style="position: fixed; top: 60px" placeholder="Search Blog">
 
     <div style="position: fixed; top: 16px; right: 16px; z-index: 9999;">
         <img src="{{ "/static/assets/img/search/cb-close.png" | prepend: site.baseurl }}" id="close-btn"/>
@@ -25,8 +25,8 @@
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a class="page-scroll" href="{{ "resume/" | prepend: site.baseurl }}">{{ site.index.home }}</a></li>
-                    {% for tag in site.data.resume %}
+                    <li><a class="page-scroll" href="{{ "blog/" | prepend: site.baseurl }}">{{ site.index.home }}</a></li>
+                    {% for tag in site.data.blog %}
                         {% if tag.name != 'Donate' or site.donation %}
                         {% if page.title == tag.name %}
                         <li class="active">
@@ -41,6 +41,6 @@
         </div>
     </nav>
 </div>
-{% if site.resume_carousel %}
+{% if site.blog_carousel %}
 {% include carousel.html %}
 {% endif %}

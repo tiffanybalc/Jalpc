@@ -39,6 +39,13 @@
               </div>
           </div>
       {% endfor %}
+                <div id="tbresume"></div>
+                <script src="/js/pdfobject.js"></script>
+                <script>PDFObject.embed(“/home/static/assets/img/landing/Balcarcel_Tiffany_Resume.pdf", "#tbresume");</script>
+                <style>
+                    .pdfobject-container { height: 500px;}
+                    .pdfobject { border: 1px solid #666; }
+                </style>
     </div>
 </div>
 <br>

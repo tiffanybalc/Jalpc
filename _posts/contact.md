@@ -10,6 +10,7 @@ icon: fa fa-briefcase
 ---
 
 <body>
+<p1> Contact Me </p1>
 <ul>
 <li>Email: tiffanybalcarcel@wustl.edu</li>
 <li>LinkedIn: <a href="linkedin.com/in/tiffanybalcarcel">tiffanybalcarcel</a></li>

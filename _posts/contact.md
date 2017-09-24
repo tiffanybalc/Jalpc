@@ -12,7 +12,7 @@ icon: fa fa-briefcase
 <body>
 <ul>
 <li>Email: tiffanybalcarcel@wustl.edu</li>
-<li>LinkedIn: <a>linkedin.com/in/tiffanybalcarcel>tiffanybalcarcel</a></li>
+<li>LinkedIn: <a>linkedin.com/in/tiffanybalcarcel<tiffanybalcarcel</a></li>
 <li>Mobile phone: 949-400-8731</li>
 </ul>
 </body>

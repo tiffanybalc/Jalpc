@@ -8,3 +8,11 @@ categories: [HTML]
 tags: [Tiffany,Balcarcel]
 icon: fa fa-briefcase
 ---
+
+<body>
+<ul>
+<li>Email: tiffanybalcarcel@wustl.edu</li>
+<li>LinkedIn: linkedin.com/in/tiffanybalcarcel</li>
+<li>Mobile phone: 949-400-8731</li>
+</ul>
+</body>

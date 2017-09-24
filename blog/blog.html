@@ -15,9 +15,8 @@ permalink: /blog/
     <div class="col-lg-8 col-lg-offset-2">
         <div class="wrapper wrapper-content animated fadeInRight">
 		<!-- Added resume -->
-		<a href="https://drive.google.com/file/d/0B5yvZmNFj3FGMHFUYTM1Vl9BbWs/view?usp=sharing" target="_blank">
-			<img src="/static/assets/img/landing/Balcarcel_Tiffany_Resume.png" alt="Tiffany Balcarcel Resume" width="240" height="180" border="10" />
-		</a>
+		<script src="/js/pdfobject.js"></script>
+		<script>PDFObject.embed("/pdf/sample-3pp.pdf", "#example1");</script>
 
             <!-- latest 10 blog -->
 			{% for post in site.posts limit:10 %}

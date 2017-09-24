@@ -1,22 +1,21 @@
 # projects section data
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
-# name: Jalpc
-# i18n: jalpc
+- name: Swimming
+  i18n: jalpc
 # gh_user: jarrekk
 # repo: Jalpc
-# img: /static/assets/img/landing/jekyll.png
+  img: /static/assets/img/landing/swimming-78112_1920.jpg
 # desc: This project is my project. I use javescript to get repo's information all my repos have only one request.
 
-# name: Python
-# i18n: cpython
+- name: Cooking Gourmet Cuisine
+  i18n: cpython
 # gh_user: python
 # repo: cpython
-# img: /static/assets/img/landing/python.png
+  img: /static/assets/img/landing/cooking-pexels-photo-129523.jpg
 # desc: This project is other's project. I use another request to get repo's information.
 
-- name: Resume
+- name: Playing flute and piano
   i18n: google
-  url: https://drive.google.com/file/d/0B5yvZmNFj3FGMHFUYTM1Vl9BbWs/view?usp=sharing
-  img: /static/assets/img/landing/Balcarcel_Tiffany_Resume.png
-  desc: View my resume
+# url: 
+  img: /static/assets/img/landing/music-piano-hands-75149.jpg

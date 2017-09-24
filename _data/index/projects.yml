@@ -18,5 +18,5 @@
 - name: Resume
   i18n: google
   url: https://drive.google.com/file/d/0B5yvZmNFj3FGMHFUYTM1Vl9BbWs/view?usp=sharing
-  img: fa-file-pdf-o
+  img: /static/assets/img/landing/Balcarcel_Tiffany_Resume.png
   desc: View my resume

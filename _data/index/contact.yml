@@ -2,7 +2,6 @@
 - name: Tiffany Balcarcel
   i18n: contact
   img: /static/assets/img/landing/avatar.jpg 
-  linkedin_id: tiffanybalcarcel
-  facebook_username:   # Leave blank if you don't have now
+  linkedin: https://www.linkedin.com/in/tiffanybalcarcel/
   email: tiffanybalcarcel@wustl.edu 
-  desc:  Phone number 949-400-8731
+  number: 949-400-8731

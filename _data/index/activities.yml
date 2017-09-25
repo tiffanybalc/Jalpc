@@ -1,10 +1,10 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 - name:
-    detail: Gamma Phi Beta
+    detail: Gamma Phi Beta, International Sorority
     i18n: company_a
   desc:
-    detail: International Sorority             
+    detail:            
     i18n: company_a_desc
   date:
     detail: January 2017 - Present

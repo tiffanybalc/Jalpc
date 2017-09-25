@@ -29,6 +29,9 @@
                   {% else %}
                   <span class="navy">{{ contact.name }}</span>
                   {% endif %}
+                      <!-- new -->
+                      <span data-i18n="contact. {{ contact.i18n }}">{{ contact.linkedin_id }}</span>
+                      <span data-i18n="contact. {{ contact.i18n }}">{{ contact.email }}</span>
                   </h4>
                   <p><span data-i18n="contact.{{ contact.i18n }}">{{ contact.desc }}</span></p>
                   {% if contact.repo %}

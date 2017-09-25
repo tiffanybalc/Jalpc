@@ -29,7 +29,7 @@
                   {% endif %}
                   </h4>
                   <!-- new -->
-                  <p><span data-i18n="contact. {{ contact.i18n }}">{{ contact.linkedin }}</span></p>
+                  <p><a href="{{ contact.linkedin }}" target="_blank"><span data-i18n="contact. {{ contact.i18n }}">{{ contact.linkedin }}</span></a></p>
                   <p><span data-i18n="contact. {{ contact.i18n }}">{{ contact.email }}</span></p>
                   <p><span data-i18n="contact.{{ contact.i18n }}">{{ contact.number }}</span></p>
                   {% if contact.repo %}

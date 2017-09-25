@@ -1,6 +1,7 @@
 # links section data
 - last_name: Washington University in St. Louis
   first_name: Olin Business School
+  img: /static/assets/img/landing/Olin_Business_School_2linecnt_pos(RGB)1000-01 copy.png
   desc: Majors in Economics & Strategy and Computer Science, Minor in Political Science
   website: https://www.olin.wustl.edu/
 # email: tiffanybalcarcel@wustl.edu
@@ -8,6 +9,7 @@
 - last_name: Mater Dei
   first_name: High School
   desc: Honored as one of the top five students of a graduating class of 471 students
+  img: /static/assets/img/landing/materdeilogotransparent.png
   website: https://www.materdei.org/
 # email: tiffanybalcarcel@wustl.edu
 

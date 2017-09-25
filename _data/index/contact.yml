@@ -2,9 +2,9 @@
 - name:
     first_name: Tiffany
     last_name: Balcarcel
-    avatar: /static/assets/img/landing/avatar.jpg 
+    i18n: contact
+    img: /static/assets/img/landing/avatar.jpg 
     linkedin_id: tiffanybalcarcel
     facebook_username:   # Leave blank if you don't have now
     email: tiffanybalcarcel@wustl.edu 
-    cv:  # An online CV can be printed as PDF, leave blank if you don't have now
     desc:  Phone number 949-400-8731

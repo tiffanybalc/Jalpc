@@ -5,6 +5,43 @@
             <h1><span data-i18n="contact.contact">Contact</span></h1>
         </div>
     </div>
+    
+    <!-- info copied from interests.html -->
+    <div class="row">
+        {% for contact in site.data.index.contact %}
+            {% assign loopindex = forloop.index | modulo: 2 %}
+            {% if forloop.last %}
+                {% if forloop.last == forloop.first %}
+            <div class="col-sm-6 wow col-sm-offset-3 zoomIn">
+                {% else %}
+            <div class="col-sm-6 wow {% if loopindex == 1 %} fadeInLeft col-sm-offset-3 {% else %} fadeInRight {% endif %}">
+                {% endif %}
+            {% else %}
+            <div class="col-sm-6 wow {% if loopindex == 1 %} fadeInLeft {% else %} fadeInRight {% endif %}">
+            {% endif %}
+              <div class="team-member">
+                  <img src="{{ contact.img | prepend: site.baseurl }}" class="img-responsive img-circle img-small" alt="">
+                  <h4>
+                  {% if contact.url %}
+                  <a href="{{ contact.url }}" target="_blank"><span class="navy">{{ contact.name }}</span></a>
+                  {% elsif contact.repo %}
+                  <a href="https://github.com/{{ contact.gh_user }}/{{ contact.repo }}" target="_blank"><span class="navy">{{ contact.name }}</span></a>
+                  {% else %}
+                  <span class="navy">{{ contact.name }}</span>
+                  {% endif %}
+                  </h4>
+                  <p><span data-i18n="contact.{{ contact.i18n }}">{{ contact.desc }}</span></p>
+                  {% if contact.repo %}
+                  <div user="{{ contact.gh_user }}" repo="{{ contact.repo }}" class="ghbtn">
+                      <a target="_blank" style="width: 65px;" href="https://github.com/{{ contact.gh_user }}/{{ contact.repo }}/stargazers" class="btn btn-white btn-xs star"><i class="fa fa-star"></i> ...</a>&emsp;&emsp;
+                      <a target="_blank" style="width: 65px;" href="https://github.com/{{ contact.gh_user }}/{{ contact.repo }}/network" class="btn btn-white btn-xs fork"><i class="fa fa-code-fork"></i> ...</a>
+                      <div style="height: 10px;"></div>
+                  </div>
+                  {% endif %}
+              </div>
+          </div>
+      {% endfor %}
+    </div>
 <!-- deleted info and moved to Education -->
     <div class="row">
         <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg">

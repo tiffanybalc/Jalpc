@@ -1,10 +1,8 @@
-# from about me section
-- name:
-    first_name: Tiffany
-    last_name: Balcarcel
-    i18n: contact
-    img: /static/assets/img/landing/avatar.jpg 
-    linkedin_id: tiffanybalcarcel
-    facebook_username:   # Leave blank if you don't have now
-    email: tiffanybalcarcel@wustl.edu 
-    desc:  Phone number 949-400-8731
+# from about me and intersts sections
+- name: Tiffany Balcarcel
+  i18n: contact
+  img: /static/assets/img/landing/avatar.jpg 
+  linkedin_id: tiffanybalcarcel
+  facebook_username:   # Leave blank if you don't have now
+  email: tiffanybalcarcel@wustl.edu 
+  desc:  Phone number 949-400-8731

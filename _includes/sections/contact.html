@@ -30,10 +30,12 @@
                   </h4>
                   <a class="a2a_button_email"></a>
                   <!-- new -->
-                  <p><a href="{{ contact.linkedin }}" target="_blank"><span data-i18n="contact. {{ contact.i18n }}">{{ contact.linkedin }}</span></a></p>
-                  <p><span data-i18n="contact. {{ contact.i18n }}">{{ contact.email }}</span></p>
-                  <p><span data-i18n="contact.{{ contact.i18n }}">{{ contact.number }}</span></p>
-                  <p><span data-i18n="contact.{{ contact.i18n }}">{{ contact.address }}</span></p>
+                  <ul>
+                      <li><a href="{{ contact.linkedin }}" target="_blank"><span data-i18n="contact. {{ contact.i18n }}">{{ contact.linkedin }}</span></a></li>
+                      <li><span data-i18n="contact. {{ contact.i18n }}">{{ contact.email }}</span></li>
+                      <li><span data-i18n="contact.{{ contact.i18n }}">{{ contact.number }}</span></li>
+                      <li><span data-i18n="contact.{{ contact.i18n }}">{{ contact.address }}</span></li>
+                  </ul>
                   {% if contact.repo %}
                   <div user="{{ contact.gh_user }}" repo="{{ contact.repo }}" class="ghbtn">
                       <a target="_blank" style="width: 65px;" href="https://github.com/{{ contact.gh_user }}/{{ contact.repo }}/stargazers" class="btn btn-white btn-xs star"><i class="fa fa-star"></i> ...</a>&emsp;&emsp;

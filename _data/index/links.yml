@@ -1,15 +1,16 @@
 # links section data
-- last_name: Tiffany
-  first_name: Balcarcel
-  desc: Download my resume
-  website: https://drive.google.com/file/d/0B5yvZmNFj3FGMHFUYTM1Vl9BbWs/view?usp=sharing
-  email: tiffanybalcarcel@wustl.edu
+- last_name: Washington University
+  first_name: in St. Louis - Olin Business School
+  desc: Majors: Economics & Strategy, Computer Science
+        Minor: Political Science
+  website: https://www.olin.wustl.edu/
+# email: tiffanybalcarcel@wustl.edu
 
-- last_name: Tiffany
-  first_name: Balcarcel
-  desc: LinkedIn Profile
-  website: https://www.linkedin.com/in/tiffanybalcarcel/
-  email: tiffanybalcarcel@wustl.edu
+- last_name: Mater Dei
+  first_name: High School
+  desc: Honored as one of the top five students of a graduating class of 471 students
+  website: https://www.materdei.org/
+# email: tiffanybalcarcel@wustl.edu
 
 # last_name: LN
 # first_name: FN

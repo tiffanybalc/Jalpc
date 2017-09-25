@@ -10,11 +10,28 @@
             </ul>                
     i18n: company_a_desc
   date:
-    detail: September 2016 - present
+    detail: September 2016 - Present
     i18n: company_a_date
   job:
     detail: VP of Career and Professional Initiatives
     i18n: company_a_job
+  icon: fa-plus-square
+  
+  - name:
+    detail: Washington University International Relations Council
+    i18n: company_b
+  desc:
+    detail: <ul>
+                <li>Directing two teams of six staff members and 25 delegates for fall and spring Model United Nations conferences</li>
+                <li>Developed 20+ page research guides relating to climate policy and Cold War politics, respectively, to educate delegates</li>
+            </ul>
+    i18n: company_b_desc
+  date:
+    detail: September 2016 - Present
+    i18n: company_b_date
+  job:
+    detail: Committee Director, Travel Team Member
+    i18n: company_b_job
   icon: fa-plus-square
 
 - name:
@@ -36,12 +53,30 @@
   icon: fa-plus-square
   
 - name:
+    detail: Congress of the South 40
+    i18n: company_c
+  desc:
+    detail: <ul>
+                <li>Managed a $4,000 budget and advised the HIG executive board to plan events for residents</li>
+                <li>Coordinated with the Residential College Director and Graduate Fellow for receipts and budgeting</li>
+                <li>Approved financial requests from student groups as a voting member of the Finance Board, to allocate funds</li>
+            </ul>
+    i18n: company_c_desc
+  date:
+    detail: September 2016 - May 2017
+    i18n: company_c_date
+  job:
+    detail: Treasurer - HIG Residential College
+    i18n: company_c_job
+  icon: fa-plus-square
+  
+- name:
     detail: OneClass - Notesolution Inc.
     i18n: company_c
   desc:
     detail: <ul>
                 <li>Executed a social media campaign to promote and market OneClass to undergraduate students</li>
-                <li> Expanded the note taker program at Washington University by recruiting students to be note takers for OneClass</li>
+                <li>Expanded the note taker program at Washington University by recruiting students to be note takers for OneClass</li>
             </ul>
     i18n: company_c_desc
   date:

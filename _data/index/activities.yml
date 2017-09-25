@@ -1,0 +1,43 @@
+# careers section data
+# if you don't have language feature(language.yml is empty), ignore "i18n" items
+- name:
+    detail: Gamma Phi Beta
+    i18n: company_a
+  desc:
+    detail: International Sorority             
+    i18n: company_a_desc
+  date:
+    detail: January 2017 - Present
+    i18n: company_a_date
+  job:
+    detail: Active Member
+    i18n: company_a_job
+  icon: fa-moon-o
+  
+- name:
+    detail: Olin Peer Ambassadors
+    i18n: company_b
+  desc:
+    detail:            
+    i18n: company_b_desc
+  date:
+    detail: December 2016 - Present
+    i18n: company_b_date
+  job:
+    detail: Peer Mentor
+    i18n: company_b_job
+  icon: fa-users
+  
+- name:
+    detail: Moneythink
+    i18n: company_b
+  desc:
+    detail:            
+    i18n: company_b_desc
+  date:
+    detail: September 2016 - Present
+    i18n: company_b_date
+  job:
+    detail: Financial Literacy Tutor
+    i18n: company_b_job
+  icon: fa-money

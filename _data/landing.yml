@@ -43,8 +43,8 @@
   page: blog/
   css: testimonials navy-section
 
-- id: links
-  i18n: nav.link
+- id: contact
+  i18n: nav.contact
   name: Contact
-  tpl: links.html
-  css: contact
+  tpl: contact.html
+  css:

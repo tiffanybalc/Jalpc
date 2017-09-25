@@ -4,9 +4,10 @@
     detail: Olin Business Council
     i18n: company_a
   desc:
-    detail: • Orchestrated the annual Chicago Career Trek and arranged housing, transportation, and career events for 50 students
-            • Communicated with managers and associates at finance and consulting firms to schedule meetings and networking events
-            • Elected to the Vice President position after a democratic school wide vote, and transitioned from an Associate role
+    detail: <ul>
+                <li>Communicated with managers and associates at finance and consulting firms to schedule meetings and networking events</li>
+                <li> Elected to the Vice President position after a democratic school wide vote, and transitioned from an Associate role</li>
+            </ul>                
     i18n: company_a_desc
   date:
     detail: September 2016 - present
@@ -36,15 +37,17 @@
   
 - name:
     detail: OneClass - Notesolution Inc.
-    i18n: company_b
+    i18n: company_c
   desc:
-    detail: • Executed a social media campaign to promote and market OneClass to undergraduate students
-            • Expanded the note taker program at Washington University by recruiting students to be note takers for OneClass
-    i18n: company_b_desc
+    detail: <ul>
+                <li>Executed a social media campaign to promote and market OneClass to undergraduate students</li>
+                <li> Expanded the note taker program at Washington University by recruiting students to be note takers for OneClass</li>
+            </ul>
+    i18n: company_c_desc
   date:
     detail: August-December 2016
-    i18n: company_b_date
+    i18n: company_c_date
   job:
     detail: Business Development Intern
-    i18n: company_b_job
+    i18n: company_c_job
   icon: fa-plus-square

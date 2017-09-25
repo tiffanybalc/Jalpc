@@ -47,4 +47,4 @@
   i18n: nav.contact
   name: Contact
   tpl: contact.html
-  css:
+  css: project

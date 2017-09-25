@@ -28,8 +28,9 @@
                   <span class="navy">{{ contact.name }}</span>
                   {% endif %}
                   </h4>
+                  <a class="a2a_button_email"></a>
                   <!-- new -->
-                  <p><a href="{{ contact.linkedin }}" target="_blank"><span data-i18n="contact. {{ contact.i18n }}">{{ contact.linkedin }}</span></a></p>
+                  <p><a class="a2a_button_linkedin" href="{{ contact.linkedin }}" target="_blank"><span data-i18n="contact. {{ contact.i18n }}">{{ contact.linkedin }}</span></a></p>
                   <p><span data-i18n="contact. {{ contact.i18n }}">{{ contact.email }}</span></p>
                   <p><span data-i18n="contact.{{ contact.i18n }}">{{ contact.number }}</span></p>
                   {% if contact.repo %}

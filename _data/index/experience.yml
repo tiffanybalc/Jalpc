@@ -20,9 +20,11 @@
     detail: Washington University in St. Louis - Career Center
     i18n: company_b
   desc:
-    detail: • Communicated with students and recent alumni via phone calls to inform them of Career Center initiatives
-            • Scheduled appointments for career advisers and students using Outlook, to save time and increase efficiency
-            • Updated the CareerLINK database and recorded student information to track placement metrics
+    detail: <ul>
+                <li>Communicated with students and recent alumni via phone calls to inform them of Career Center initiatives</li>
+                <li>Scheduled appointments for career advisers and students using Outlook, to save time and increase efficiency</li>
+                <li>Updated the CareerLINK database and recorded student information to track placement metrics</li>
+            </ul> 
     i18n: company_b_desc
   date:
     detail: June-August 2017

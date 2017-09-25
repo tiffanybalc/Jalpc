@@ -32,7 +32,7 @@
     i18n: company_b_job
   icon: fa-plus-square
   
-  - name:
+- name:
     detail: OneClass - Notesolution Inc.
     i18n: company_c
   desc:

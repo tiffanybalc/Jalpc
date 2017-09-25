@@ -24,15 +24,13 @@
                   <h4>
                   {% if contact.url %}
                   <a href="{{ contact.url }}" target="_blank"><span class="navy">{{ contact.name }}</span></a>
-                  {% elsif contact.repo %}
-                  <a href="https://github.com/{{ contact.gh_user }}/{{ contact.repo }}" target="_blank"><span class="navy">{{ contact.name }}</span></a>
                   {% else %}
                   <span class="navy">{{ contact.name }}</span>
                   {% endif %}
-                      <!-- new -->
-                      <span data-i18n="contact. {{ contact.i18n }}">{{ contact.linkedin_id }}</span>
-                      <span data-i18n="contact. {{ contact.i18n }}">{{ contact.email }}</span>
                   </h4>
+                  <!-- new -->
+                  <p><span data-i18n="contact. {{ contact.i18n }}">{{ contact.linkedin_id }}</span></p>
+                  <p><span data-i18n="contact. {{ contact.i18n }}">{{ contact.email }}</span></p>
                   <p><span data-i18n="contact.{{ contact.i18n }}">{{ contact.desc }}</span></p>
                   {% if contact.repo %}
                   <div user="{{ contact.gh_user }}" repo="{{ contact.repo }}" class="ghbtn">

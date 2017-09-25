@@ -21,8 +21,8 @@
     i18n: company_b
   desc:
     detail: • Communicated with students and recent alumni via phone calls to inform them of Career Center initiatives
-    • Scheduled appointments for career advisers and students using Outlook, to save time and increase efficiency
-    • Updated the CareerLINK database and recorded student information to track placement metrics
+            • Scheduled appointments for career advisers and students using Outlook, to save time and increase efficiency
+            • Updated the CareerLINK database and recorded student information to track placement metrics
     i18n: company_b_desc
   date:
     detail: June-August 2017
@@ -37,7 +37,7 @@
     i18n: company_b
   desc:
     detail: • Executed a social media campaign to promote and market OneClass to undergraduate students
-    • Expanded the note taker program at Washington University by recruiting students to be note takers for OneClass
+            • Expanded the note taker program at Washington University by recruiting students to be note takers for OneClass
     i18n: company_b_desc
   date:
     detail: August-December 2016

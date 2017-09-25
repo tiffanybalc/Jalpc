@@ -5,9 +5,24 @@
             <h1><span data-i18n="activities.my_activities">Activities</span></h1>
         </div>
     </div>
-    <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg wow zoomIn">
-            <p><span data-i18n="activities.des">{{ site.activities.desc }}</span></p>
+    <div class="row features-block">
+        <div class="col-lg-12">
+            <div id="vertical-timeline" class="vertical-container light-timeline center-orientation">
+            {% for activities in site.data.index.activities %}
+            {% assign loopindex = forloop.index | modulo: 2 %}
+                <div class="vertical-timeline-block">
+                    <div class="vertical-timeline-icon navy-bg wow rotateIn">
+                        <i class="fa {{ activities.icon }}"></i>
+                    </div>
+                    <div class="vertical-timeline-content wow {% if loopindex == 1 %} rotateInUpRight {% else %} rotateInUpLeft {% endif %}">
+                        <h2><span data-i18n="activities.{{ activities.name.i18n }}">{{ activities.name.detail }}</span></h2>
+                        <p><span data-i18n="activities.{{ activities.desc.i18n }}">{{ activities.desc.detail }} </span></p>
+                        <span class="vertical-date"><span data-i18n="activities.{{ activities.date.i18n }}"> {{ activities.date.detail }} </span>
+                        <br/> <small><span data-i18n="activities.{{ activities.job.i18n }}">{{ activities.job.detail }}</span></small> </span>
+                    </div>
+                </div>
+            {% endfor %}
+            </div>
         </div>
     </div>
 </div>

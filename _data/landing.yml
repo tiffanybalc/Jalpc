@@ -12,6 +12,12 @@
   tpl: experience.html
   css: timeline
   
+- id: education
+  i18n: nav.education
+  name: Education
+  tpl: education.html
+  css: contact
+  
 - id: activities
   i18n: nav.activities
   name: Activities

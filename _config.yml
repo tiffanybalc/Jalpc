@@ -2,8 +2,8 @@
 
 # Website settings
 title: Tiffany Balcarcel
-description: Tiffany Balcarcel's resume website,use github pages.
-keywords: Tiffany,Balcarcel,resume,cv,tiffanybalcarcel,github,gh-pages
+description: Tiffany Balcarcel's website coded through GitHub, I am a sophomore at Washington University in St. Louis majoring in Economics & Strategy and Computer Science.
+keywords: Tiffany,Balcarcel,resume,cv,tiffanybalcarcel,github,gh-pages,washington,university,in,st.,louis,olin,business,school,orange,county,california,newport,beach,management,consulting,economics,strategy,web,design,microsoft,excel,powerpoint,java
 baseurl: /home # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
 url: https://tiffanybalc.github.io/home  # url should be 'http://<github_username>.github.io/homepage' as before
 # url: http://127.0.0.1:4000

@@ -10,7 +10,7 @@
     detail: January 2017 - Present
     i18n: company_a_date
   job:
-    detail: Active Member
+    detail: Risk Manager
     i18n: company_a_job
   icon: fa-moon-o
   
@@ -41,3 +41,17 @@
     detail: Financial Literacy Tutor
     i18n: company_b_job
   icon: fa-money
+  
+- name:
+    detail: Women in Computer Science
+    i18n: company_b
+  desc:
+    detail:            
+    i18n: company_b_desc
+  date:
+    detail: September 2018 - Present
+    i18n: company_b_date
+  job:
+    detail: Active Member
+    i18n: company_b_job
+  icon: fa-users

@@ -13,7 +13,7 @@
 # gh_user: python
 # repo: cpython
   img: /static/assets/img/landing/cooking-pexels-photo-129523.jpg
-desc: Check out my foodstagram @foodVenturin
+  desc: Check out my foodstagram @foodVenturin
 
 - name: Music and Playing Piano
   i18n: google

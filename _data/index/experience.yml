@@ -1,6 +1,41 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 - name:
+    detail: Deutsche Bank
+    i18n: company_e
+  desc:
+    detail: <ul>
+                <li>Worked on reference data services agile team to migrate legacy databases into a master database to save company resources</li>
+                <li>Created testing strategy to ensure proper parsing from XML and legacy databases, shorten test period, and reduce expenses</li>
+                <li>Developed a sentiment analysis system for financial news using Python machine learning packages to create a neural network</li>
+            </ul>                
+    i18n: company_e_desc
+  date:
+    detail: June 2019 - August 2019
+    i18n: company_e_date
+  job:
+    detail: Summer Technology Analyst
+    i18n: company_e_job
+  icon: fa-plus-square
+
+- name:
+    detail: Washington University in St. Louis, Mckelvey School of Engineering
+    i18n: company_d
+  desc:
+    detail: <ul>
+                <li>Assigned as assignment grading lead and worked with other Teaching Assistant’s to ensure fairness and equity in grading</li>
+                <li>Facilitated students’ learning experience in asymptotic complexity and graph theory using prior knowledge</li>
+            </ul>                
+    i18n: company_d_desc
+  date:
+    detail: January 2018 - Present
+    i18n: company_d_date
+  job:
+    detail: Teaching Assistant for Data Structures & Algorithms, Mobile App Development, Logic & Discrete Mathematics
+    i18n: company_d_job
+  icon: fa-plus-square
+
+- name:
     detail: Olin Business Council
     i18n: company_a
   desc:

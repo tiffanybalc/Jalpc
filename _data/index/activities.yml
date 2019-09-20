@@ -30,42 +30,42 @@
   
 - name:
     detail: Moneythink
-    i18n: company_b
+    i18n: company_c
   desc:
     detail:            
-    i18n: company_b_desc
+    i18n: company_c_desc
   date:
     detail: September 2016 - December 2018
-    i18n: company_b_date
+    i18n: company_c_date
   job:
     detail: Financial Literacy Tutor
-    i18n: company_b_job
+    i18n: company_c_job
   icon: fa-money
   
 - name:
     detail: Women in Computer Science
-    i18n: company_b
+    i18n: company_d
   desc:
     detail:            
-    i18n: company_b_desc
+    i18n: company_d_desc
   date:
     detail: September 2018 - Present
-    i18n: company_b_date
+    i18n: company_d_date
   job:
     detail: Active Member
-    i18n: company_b_job
+    i18n: company_d_job
   icon: fa-users
   
   - name:
     detail: Society of Hispanic Professional Engineers
-    i18n: company_b
+    i18n: company_e
   desc:
     detail:            
-    i18n: company_b_desc
+    i18n: company_e_desc
   date:
     detail: September 2018 - Present
-    i18n: company_b_date
+    i18n: company_e_date
   job:
     detail: Active Member
-    i18n: company_b_job
+    i18n: company_e_job
   icon: fa-users

@@ -2,5 +2,5 @@
 
 label: Ability
 id : cs
-aspects: Leadership, Spanish, Microsoft Excel, C++, Python, Java, Data Analytics
-percentage: 95, 99, 70, 65, 70, 90, 70
+aspects: Spanish, Microsoft Excel, C++, Python, Java, Data Analytics, Swift, PHP, MySQL
+percentage: 99, 70, 65, 70, 90, 70, 85, 70, 80

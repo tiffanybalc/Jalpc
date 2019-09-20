@@ -21,7 +21,7 @@
     detail:            
     i18n: company_b_desc
   date:
-    detail: December 2016 - Present
+    detail: December 2016 - February 2019
     i18n: company_b_date
   job:
     detail: Peer Mentor
@@ -35,7 +35,7 @@
     detail:            
     i18n: company_b_desc
   date:
-    detail: September 2016 - Present
+    detail: September 2016 - December 2018
     i18n: company_b_date
   job:
     detail: Financial Literacy Tutor
@@ -44,6 +44,20 @@
   
 - name:
     detail: Women in Computer Science
+    i18n: company_b
+  desc:
+    detail:            
+    i18n: company_b_desc
+  date:
+    detail: September 2018 - Present
+    i18n: company_b_date
+  job:
+    detail: Active Member
+    i18n: company_b_job
+  icon: fa-users
+  
+  - name:
+    detail: Society of Hispanic Professional Engineers
     i18n: company_b
   desc:
     detail:            

@@ -56,7 +56,7 @@
     i18n: company_d_job
   icon: fa-users
   
-  - name:
+- name:
     detail: Society of Hispanic Professional Engineers
     i18n: company_e
   desc:

@@ -34,6 +34,23 @@
     detail: Teaching Assistant for Data Structures & Algorithms, Mobile App Development, Logic & Discrete Mathematics
     i18n: company_d_job
   icon: fa-plus-square
+  
+- name:
+    detail: Green Dining Alliance
+    i18n: company_f
+  desc:
+    detail: <ul>
+                <li>Created an iOS app primarily with Swift and XCode, utilizing MapKit, WebKit, for a local nonprofit</li>
+                <li>Used Google’s Firebase SDK to integrate userbase and database with existing WordPress website and app</li>
+            </ul>                
+    i18n: company_f_desc
+  date:
+    detail: Summer 2018
+    i18n: company_f_date
+  job:
+    detail: iOS Application Developer
+    i18n: company_f_job
+  icon: fa-plus-square
 
 - name:
     detail: Olin Business Council
